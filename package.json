@@ -47,7 +47,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "=19.7.1",
-    "@commitlint/config-conventional": "=19.6.0",
+    "@commitlint/config-conventional": "=19.7.1",
     "chai": "=5.1.2",
     "husky": "=8.0.3",
     "mocha": "=11.1.0"
