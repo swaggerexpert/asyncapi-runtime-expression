@@ -50,6 +50,6 @@
     "@commitlint/config-conventional": "=19.8.1",
     "chai": "=5.2.0",
     "husky": "=8.0.3",
-    "mocha": "=11.4.0"
+    "mocha": "=11.5.0"
   }
 }
