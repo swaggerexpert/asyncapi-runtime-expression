@@ -9,8 +9,7 @@
   },
   "scripts": {
     "grammar:compile": "./node_modules/apg-js/bin/apg.sh --in=./src/runtime-expression.bnf --out=./src/runtime-expression.js && cd ./src && mv runtime-expression.js runtime-expression.cjs",
-    "test": "mocha",
-    "prepare": "husky install"
+    "test": "mocha"
   },
   "engines": {
     "node": ">=14.16"
@@ -49,7 +48,7 @@
     "@commitlint/cli": "=19.8.1",
     "@commitlint/config-conventional": "=19.8.1",
     "chai": "=6.0.1",
-    "husky": "=8.0.3",
+    "husky": "=9.1.7",
     "mocha": "=11.7.2"
   }
 }
